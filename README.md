@@ -32,4 +32,4 @@ docker run -it -e "INPUT_STREAM=<your input stream (rtsp,...)>" -e "OUTPUT_STREA
 ## Resources
 * https://www.ffmpeg.org
 * https://alpinelinux.org/
-* https://github.com/alfg/docker-nginx-rtmp"
+* https://github.com/alfg/docker-nginx-rtmp
