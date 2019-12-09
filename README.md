@@ -8,7 +8,7 @@ Built on Alpine Linux.
 [![Docker Stars](https://img.shields.io/docker/stars/janhalama/ffmpeg-pipe.svg)](https://hub.docker.com/r/janhalama/ffmpeg-pipe/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/janhalama/ffmpeg-pipe.svg)](https://hub.docker.com/r/janhalama/ffmpeg-pipe/)
 [![Docker Automated build](https://img.shields.io/docker/automated/janhalama/ffmpeg-pipe.svg)](https://hub.docker.com/r/janhalama/ffmpeg-pipe/builds/)
-[![Build Status](https://travis-ci.org/janhalama/docker-ffmpeg-pipe.svg?branch=master)](https://travis-ci.org/janhalama/ffmpeg-pipe)
+[![Build Status](https://travis-ci.org/janhalama/docker-ffmpeg-pipe.svg?branch=master)](https://travis-ci.org/janhalama/docker-ffmpeg-pipe)
 
 ## Build
 To build Docker image use following command:
