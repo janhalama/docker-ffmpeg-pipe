@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  nginx-rtmp:
+    image: janhalama/nginx-rtmp
+    ports:
+      - 8080:8080
+  ffmpeg-pipe:
+    build: .
+    environment:
+      - OUTPUT_STREAM=rtmp://nginx-rtmp:1935/test
+      - INPUT_STREAM=rtsp://freja.hiof.no:1935/rtplive/_definst_/hessdalen03.stream
