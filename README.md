@@ -22,7 +22,7 @@ docker build -t ffmpeg-pipe .
 * Pull docker image and run:
 ```
 docker pull janhalama/ffmpeg-pipe
-docker run -it -p 8080:8080 -e "INPUT_STREAM=<your input stream (rtsp,...)>" -e "OUTPUT_STREAM=<your output rtmp stream>"
+docker run -it -e "INPUT_STREAM=<your input stream (rtsp,...)>" -e "OUTPUT_STREAM=<your output rtmp stream>"
 ```
 
 ### Integrate with nginx-rtmp docker
