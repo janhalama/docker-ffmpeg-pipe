@@ -18,16 +18,26 @@ docker build -t ffmpeg-pipe .
 
 ## Usage
 
-### Server
-* Pull docker image and run:
+### Run standalone ffmpeg video pipe
+* Clone repo
+* Pull docker image
+* Run docker
 ```
+git clone https://github.com/janhalama/docker-ffmpeg-pipe.git
+cd docker-ffmpeg-pipe
 docker pull janhalama/ffmpeg-pipe
 docker run -it -e "INPUT_STREAM=<your input stream (rtsp,...)>" -e "OUTPUT_STREAM=<your output rtmp stream>"
 ```
 
-### Integrate with nginx-rtmp docker
-* configure OUTPUT_STREAM to your nginx-rtmp (see: https://github.com/alfg/docker-nginx-rtmp) instance to expose your video in HLS format
-
+### Example integration with nginx-rtmp docker service
+* Clone repo
+* Run docker compose script
+```
+git clone https://github.com/janhalama/docker-ffmpeg-pipe.git
+cd docker-ffmpeg-pipe
+docker-compose up
+```
+* Now HLS stream is available on http:\\localhost:80\live\test
 
 ## Resources
 * https://www.ffmpeg.org
